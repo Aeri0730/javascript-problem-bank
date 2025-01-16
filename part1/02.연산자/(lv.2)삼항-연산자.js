@@ -11,7 +11,7 @@
  */
 
 function ternaryOperator(age) {
-  let data = "";
+ 
   // TODO: 삼항연산자를 사용해 data 변수에 알맞은 값을 할당하세요.
 
   return data;
