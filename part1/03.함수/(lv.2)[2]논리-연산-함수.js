@@ -11,6 +11,9 @@
 
 function canDrive(age, hasLicense) {
   // TODO
+  const result = age >= 18 && hasLicense ? true : false;
+
+  return result;
 }
 
 // export 를 수정하지 마시오.

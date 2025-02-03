@@ -12,6 +12,12 @@
 
 function loginCheck(id, pw) {
   // TODO
+
+  if (id === "admin" && pw === "1234") {
+    return "success";
+  }
+
+  return "fail";
 }
 
 // export를 수정하지 마세요.

@@ -11,6 +11,23 @@
  */
 function getDayName(dayNumber) {
   // TODO
+  if (dayNumber === 1) {
+    return "월";
+  } else if (dayNumber === 2) {
+    return "화";
+  } else if (dayNumber === 3) {
+    return "수";
+  } else if (dayNumber === 4) {
+    return "목";
+  } else if (dayNumber === 5) {
+    return "금";
+  } else if (dayNumber === 6) {
+    return "토";
+  } else if (dayNumber === 7) {
+    return "일";
+  } else {
+    return "Invalid";
+  }
 }
 
 // export 를 수정하지 마세요.

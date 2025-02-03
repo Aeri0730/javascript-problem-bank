@@ -33,7 +33,7 @@ let num1LessThanOrEqual = num1 <= 10;
 let num2LessThanOrEqual = num2 <= 10;
 
 // TODO: num1과 num2가 모두 10보다 큰지 확인하는 연산을 수행하세요.
-let bothGreaterThan = num1 > 10 && num > 10;
+let bothGreaterThan = num1 > 10 && num2 > 10;
 
 // TODO: num1과 num2가 모두 10보다 작은지 확인하는 연산을 수행하세요.
 let bothLessThan = num1 < 10 && num2 < 10;

@@ -10,7 +10,11 @@
  */
 
 function introduce(name, age) {
-  // TODO
+  const text = age || "비공개";
+
+  const result = `안녕하세요! 저는 ${name}, 나이는 ${text}입니다.`;
+
+  return result;
 }
 
 // export 를 수정하지 마세요.
