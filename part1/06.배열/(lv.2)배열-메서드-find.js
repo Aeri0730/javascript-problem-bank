@@ -28,7 +28,8 @@ function findUserByName(users, name) {
 
 // TODO: findIndexOf 함수를 작성하세요.
 function findIndexOf(arr, value) {
-  return arr.findIndexOf((e) => e === value);
+  
+  return arr.findIndex((num) => num === value);
 }
 
 // export를 수정하지 마세요.

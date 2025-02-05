@@ -14,6 +14,9 @@
  */
 function subArray(arr, start, end) {
   // TODO
+  const newList = arr.slice(start, end);
+
+  return newList;
 }
 
 // export를 수정하지 마세요.

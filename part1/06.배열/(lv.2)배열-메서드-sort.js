@@ -10,6 +10,8 @@
  */
 function sortNumbers() {
   // TODO
+  let newArr = [...arr];
+  return newArr.sort((a, b) => b - a);
 }
 
 // export를 수정하지 마세요.

@@ -18,7 +18,8 @@ function manageTaskList(tasks, newTask) {
   tasks.pop();
   tasks.push(newTask);
 
-  if(tasks )
+  tasks.length > 0 ? (tasks[0] = "Updated Task") : null;
+  return tasks;
 }
 
 // export를 수정하지 마세요.
