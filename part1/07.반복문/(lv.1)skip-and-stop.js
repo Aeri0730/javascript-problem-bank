@@ -17,7 +17,20 @@
  *
  * @returns {number}
  */
-function skipAndStop() {}
+function skipAndStop() {
+  let sum = 0;
+  for (let i = 1; i <= 10; i++) {
+    if (i > 7) {
+      break;
+    } else if (i % 2 === 0) {
+      continue;
+    } else {
+      sum += i;
+    }
+  }
+
+  return sum;
+}
 
 // export를 수정하지 마세요.
 export { skipAndStop };
